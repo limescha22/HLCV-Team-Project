@@ -1,0 +1,6 @@
+Higher level computer Vision methods
+
+1. Identify which images may irritate the model (later we can train with and without these images to test which performs better)
+2. Data augmentation (design in a function-calling manner so that we can experiment with different set ups)
+3. Model creation (experiment with different architectures and parameters)
+4. Evaluate which types of pictures are detected well and which are not.
