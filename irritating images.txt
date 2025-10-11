@@ -1,0 +1,127 @@
+For apples:
+    train
+        191 - very round. Kidna looks like a pumpkin
+        108, 188, 187,  217- Looks like different fruit (cherry, dragonfruit)
+        221 - Looks similar to tomato
+        39, 125, 229 - drawing
+        203 - only 1/4 is apple -> careful when processing and cutting
+    valid
+        4- may be confusing
+        13, 14, 22, 23, 25, 767 - drawings or depictions
+        73 - juicebox
+        88- chips and apple
+
+
+
+
+Avocado: 
+    train
+        1 - Could also be lemons in an early stage
+        161 - Avocados are hardly recongizable
+        162, 168, 169 and 178 - Looks like papaya
+    valid
+        5- drawing
+        15, 99- fruits
+        30, 59 - looks like other fruit
+        68 - hard to recognize
+
+Bananas:
+    train
+        7 - hardly recongizable
+        16 - also has pineapple
+        32 - far away but still ok
+        41 - wtf
+        45 - too many different fruits
+        81 - has eggs. May be confused with kiwi
+        105 - has pineapple and other fruits
+        124 - looks like a toy
+        130 - fruits
+        189 - just the tree
+        205- too close
+        225- pixely
+        227 - may also be weird avocado
+    valid
+        2, 92 - fruits
+        16 - drawing
+        35 - may be confused as other fruit
+
+Cherry:
+    train
+        19, 200 - Looks like paprika
+        20 - also has cranberries
+        51, 97, 127, 211 - looks like cranberries or tomatoes
+        52, 119, 121 - fruits
+        59 - hard to recognize
+        85, 96, 157, 158 - manageable but hard to recognize
+        134 - toy cherry
+        229 - could also be olives
+    valid
+        14 - may be confused as other fruit
+        18, 72 - marmelade
+        32 - weird aadditional graphic
+        60 - other fruit
+
+kiwi 
+    train
+        12, 47, 195 - early stage kiwi
+        45 - no distinct features
+        152 - toy and watermelon
+        175 - fruits
+        215 - weird graphic
+        220 - drawn
+    valid
+        56 - fruits
+        95 - drawing
+
+mango 
+    train
+        2, 4, 7, 17, 26, 65, 68, 66, 103 - weird shape
+        19, 72 - fruits and weird shape
+        29 - looks like aapple
+        80, 85, 102 (or apple) - could be banana or avocado in grey scale
+        106, 162 - looks like pflaume
+        164, 173, 179, 200 - confusing fruit
+    valid
+        0, 5, 6 - weird mango
+
+orange
+    train
+        10, 14, 52, 48, 64, 67, 146, 154, 156, 187, 196, 203, 217, 220, 221 - looks like different fruit
+        153,  - is different fruit
+        34 and 40 and 70 and 224 - toy and depiction
+        35- juice
+        82, 102 - fruits
+        107 - not recongizable
+        140 - hard zoom in but doable
+    valid
+        2 - pictogram
+        45 - maay be confusing
+        48 - fruits
+
+pineapple:
+    train
+        35, 70, 79, 139 - fruits
+        88 - hard but doable
+        115- chips
+        225 - juice
+    valid
+        33, 34 - drawing
+        69 (watermelon) - confusing 
+
+strawberries
+    train
+        53 - no distinct feature
+        58, 166 and 186 (majority strawberry though), 219, 220 - fruits
+        128 and 134 (could be cherry) - looks like different fruit
+
+watermelon
+    train
+        2, 6, 75, 92, 102 - toy or depiction
+        18, 45, 58, 74, 69, 99, 143, 139, 147, 165 - fruits
+        83, 126, 175 - may be confused as other fruit
+    valid
+        0, 10, 11, 15, 27, 34, 30, 38, 44, 45, 47, 56, 70, 79, 85, 86, 87, 96, 103, 104 - fruits
+        28 - juice
+
+
+
