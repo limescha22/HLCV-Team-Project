@@ -1,10 +1,12 @@
 For apples:
     train
-        191 - very round. Kidna looks like a pumpkin
+        191, 208 - very round. Kidna looks like a pumpkin
         108, 188, 187,  217- Looks like different fruit (cherry, dragonfruit)
         221 - Looks similar to tomato
-        39, 125, 229 - drawing
+        39, 62, 70, 125, 229, 112, 195 - drawing
         203 - only 1/4 is apple -> careful when processing and cutting
+        58 - fruits
+        119 + 114,  - duplicatess
     valid
         4- may be confusing
         13, 14, 22, 23, 25, 767 - drawings or depictions
