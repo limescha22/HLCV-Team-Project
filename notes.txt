@@ -4,3 +4,5 @@ Higher level computer Vision methods
 2. Data augmentation (design in a function-calling manner so that we can experiment with different set ups)
 3. Model creation (experiment with different architectures and parameters)
 4. Evaluate which types of pictures are detected well and which are not.
+
+Possibly add more data: https://www.kaggle.com/datasets/shreyapmaher/fruits-dataset-images
