@@ -1,0 +1,14 @@
+Rotation: Rotate the image by a certain angle (e.g., 90 degrees, 180 degrees).
+Translation: Shift the image horizontally or vertically by a certain distance.
+Scaling: Enlarge or shrink the image by a certain factor.
+Flipping: Flip the image horizontally (mirroring) or vertically.
+Shearing: Skew the image along the x or y-axis.
+Zooming: Zoom in or out of the image. (i.e. cropping)
+Brightness Adjustment: Increase or decrease the brightness of the image.
+Contrast Adjustment: Increase or decrease the contrast of the image.
+Noise Addition: Add random noise to the image
+
+Look at data again and see if all augmentations make sense.
+Also save each augmentated picture as a new image.
+PCA color augmentation?
+
