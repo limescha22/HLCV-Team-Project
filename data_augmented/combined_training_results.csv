@@ -1,2 +1,2 @@
 Combination,Best_Val_Acc,Best_Val_Loss,Best_Train_Acc,Total_Params,Best_Model_Path
-Strong_150 + Moderate_150,0.5248780250549316,1.4350605010986328,0.582608699798584,3290,data_augmented\best_model_combined_150.keras
+Strong_150 + Moderate_150,0.5502439141273499,1.4575588703155518,0.6123912930488586,3290,data_augmented\best_model_combined_150.keras
