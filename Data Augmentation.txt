@@ -12,3 +12,5 @@ Look at data again and see if all augmentations make sense.
 Also save each augmentated picture as a new image.
 PCA color augmentation?
 
+
+TODO: Strong transformations with suitable "step size". Apply single transformations and multiple at a time per image.
