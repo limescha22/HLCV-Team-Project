@@ -1,5 +1,4 @@
 *.jpeg
 *.png
 .conda
-*.keras
 *.jpg
