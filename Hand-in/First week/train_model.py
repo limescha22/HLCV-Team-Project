@@ -7,7 +7,7 @@ import torchvision.transforms.v2 as v2
 import os
 from torch import autocast
 
-OUTPUT_DIR = "../../data_augmented/geo_flip_heavy"   # folder with your augmented training data
+OUTPUT_DIR = "../../data_augmented/moderate_clean_mix_match"   # folder with your augmented training data
 VAL_DATA_DIR = "../../data/val"             # validation folder
 
 
@@ -38,7 +38,7 @@ class SmallCNN(nn.Module):
     
 if __name__ == "__main__":
         
-    # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     transform = v2.Compose([
         v2.Resize((150, 150)),
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     train_ds = torchvision.datasets.ImageFolder(root=OUTPUT_DIR, transform=transform)
     val_ds = torchvision.datasets.ImageFolder(root=VAL_DATA_DIR, transform=transform)
 
-    device = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
+    # device = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
 
     train_loader = DataLoader(train_ds, batch_size=32, shuffle=True, num_workers=2)
     val_loader = DataLoader(val_ds, batch_size=32, shuffle=False, num_workers=2)
@@ -79,10 +79,8 @@ if __name__ == "__main__":
         for images, labels in train_loader:
             images, labels = images.to(device), labels.to(device)
             optimizer.zero_grad()
-            # Automatic mixed precision for MPS
-            with autocast(device_type='mps'):
-                outputs = model(images)
-                loss = criterion(outputs, labels)
+            outputs = model(images)
+            loss = criterion(outputs, labels)
             loss.backward()
             optimizer.step()
             

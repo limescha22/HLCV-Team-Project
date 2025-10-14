@@ -33,7 +33,7 @@ class Test:
     @final
     def test_model(
             self,
-            root = "../../data_submission/moderate_clean_mix_match", # folder with your data (train/val/test subfolders)
+            root = "./dataset",
             device = "cuda",
             weights = "model.torch"
         ):
