@@ -2,3 +2,4 @@
 *.png
 .conda
 *.jpg
+*.pyi

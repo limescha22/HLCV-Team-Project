@@ -33,13 +33,14 @@ class Test:
     @final
     def test_model(
             self,
-            root = "../../data_submission/moderate_clean_mix_match", # folder with your data (train/val/test subfolders)
+            root = "../data_submission/baseline",
             device = "cuda",
             weights = "model.torch"
         ):
         model = self.create_model()
         assert issubclass(model.__class__, torch.nn.Module)
         num_par = sum([torch.prod(torch.tensor(p.shape)) for p in model.parameters()]).item()
+        print(num_par)
         assert num_par <= 10_000
         
         state_dict = torch.load(
